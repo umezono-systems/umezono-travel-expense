@@ -2351,7 +2351,8 @@
 
       <div class="login-request-note">
         ログインIDをお持ちでない場合は、利用申請を行ってください。<br>
-        モバイル端末（スマートフォン・タブレット）で利用する場合は、LINE内ブラウザではなくChromeまたはSafariで開いてください。
+        モバイル端末では、ChromeまたはSafariで開いてください。<br>
+        ※LINE内ブラウザでは、ファイル添付・カメラ撮影が正常に動作しない場合があります。
       </div>
 
       <div class="login-error" id="login-error"></div>
@@ -2916,7 +2917,8 @@
 
         <div class="drop-hint">
           PDF / JPG / PNG / Excel 対応・最大40件まで<br>
-          ※モバイル端末（スマートフォン・タブレット）で添付が開かない場合は、LINE内ブラウザではなくChromeまたはSafariで開いてください。
+          ※スマートフォンで添付・カメラを使用する場合は、ChromeまたはSafariで開いてください。<br>
+          LINE内ブラウザでは正常に動作しない場合があります。
         </div>
       </div>
 
@@ -10705,7 +10707,7 @@
           cancelText: "キャンセル",
           icon:
             nextStatus === "approved" ||
-            nextStatus === "paid"
+              nextStatus === "paid"
               ? "circle-check"
               : "circle-x"
         });
